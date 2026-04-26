@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EngliLab — Ton Laboratoire d'Anglais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="32" width="44" height="4" rx="2" fill="white" opacity="0.9"/>
+        <rect x="12" y="37" width="36" height="3" rx="1.5" fill="white" opacity="0.6"/>
+        <rect x="16" y="41" width="28" height="2" rx="1" fill="white" opacity="0.3"/>
+        <path d="M18 32 L30 14 L42 32" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 32 L30 18 L38 32" fill="white" opacity="0.15"/>
+        <rect x="23" y="22" width="14" height="10" rx="2" fill="none" stroke="white" stroke-width="1.5"/>
+        <text x="30" y="30" font-family="Syne" font-weight="800" font-size="7" fill="white" text-anchor="middle">EL</text>
+        <path d="M38 16 Q44 10 50 14" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+        <polygon points="50,10 52,16 46,15" fill="white" opacity="0.8"/>
+        <rect x="8" y="10" width="16" height="11" rx="3" fill="none" stroke="white" stroke-width="1.8" opacity="0.7"/>
+        <path d="M8 18 L4 22" stroke="white" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+      </svg>
+    </div>
+    <span>Engli<b>Lab</b></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#missions">Missions</a></li>
+    <li><a href="#programme">Programme</a></li>
+    <li><a href="#quiz-section" class="nav-quiz">🎯 Tester mon niveau</a></li>
+    <li><a href="#discord" class="nav-cta">Rejoindre →</a></li>
+  </ul>
+  <button class="burger" id="burger"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">À propos</a>
+  <a href="#missions">Missions</a>
+  <a href="#programme">Programme</a>
+  <a href="#quiz-section" class="mob-quiz">🎯 Tester mon niveau</a>
+  <a href="#discord" class="mob-cta">Rejoindre le club</a>
+</div>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+    <div class="grid-lines"></div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Club actif · Burkina Faso · Afrique Francophone
+      </div>
+      <h1 class="hero-title">
+        Ton <span class="ht-accent">laboratoire</span><br>
+        d'anglais pour<br>
+        <span class="ht-green">conquérir le monde</span>
+      </h1>
+      <p class="hero-sub">EngliLab est une communauté d'apprentissage de l'anglais pour lycéens et étudiants africains. Pratique réelle, progression structurée, ambition mondiale.</p>
+      <div class="hero-btns">
+        <a href="#quiz-section" class="btn-quiz-hero">🎯 Tester mon niveau</a>
+        <a href="#discord" class="btn-join">Rejoindre le club ↗</a>
+        <a href="#programme" class="btn-ghost">Voir le programme</a>
+      </div>
+      <div class="hero-flags">
+        <span title="Burkina Faso">🇧🇫</span>
+        <span title="Côte d'Ivoire">🇨🇮</span>
+        <span title="Sénégal">🇸🇳</span>
+        <span title="Mali">🇲🇱</span>
+        <span title="Bénin">🇧🇯</span>
+        <span title="Niger">🇳🇪</span>
+        <span class="more-flags">+14 pays</span>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-visual">
+        <div class="hv-main">
+          <div class="hv-logo-wrap">
+            <div class="hv-logo-svg">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="68" width="100" height="8" rx="4" fill="white" opacity="0.9"/>
+                <rect x="18" y="78" width="84" height="6" rx="3" fill="white" opacity="0.55"/>
+                <rect x="28" y="86" width="64" height="4" rx="2" fill="white" opacity="0.25"/>
+                <path d="M30 68 L60 22 L90 68" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M38 68 L60 30 L82 68" fill="white" opacity="0.1"/>
+                <rect x="42" y="42" width="36" height="26" rx="5" fill="none" stroke="white" stroke-width="3"/>
+                <text x="60" y="60" font-family="Syne,sans-serif" font-weight="800" font-size="14" fill="white" text-anchor="middle">EL</text>
+                <path d="M80 26 Q95 14 108 22" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+                <polygon points="108,14 112,24 102,22" fill="white" opacity="0.85"/>
+                <rect x="10" y="14" width="34" height="24" rx="6" fill="none" stroke="white" stroke-width="3" opacity="0.75"/>
+                <path d="M10 34 L2 44" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+              </svg>
+            </div>
+            <p class="hv-brand">Engli<b>Lab</b></p>
+          </div>
+          <p class="hv-quote">"L'anglais, ta clé pour le monde"</p>
+          <div class="hv-levels">
+            <span class="hvl a1">A1</span>
+            <span class="hvl a2">A2</span>
+            <span class="hvl b1 active">B1</span>
+            <span class="hvl b2">B2</span>
+            <span class="hvl c1">C1</span>
+          </div>
+        </div>
+        <div class="hv-float hv-f1">
+          <span>🚀</span>
+          <div><b>100%</b><small>Pratique orale</small></div>
+        </div>
+        <div class="hv-float hv-f2">
+          <span>🌍</span>
+          <div><b>20+</b><small>Pays</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="hs"><span class="hs-n">4</span><span class="hs-l">Niveaux</span></div>
+    <div class="hs-sep"></div>
+    <div class="hs"><span class="hs-n">100%</span><span class="hs-l">Pratique réelle</span></div>
+    <div class="hs-sep"></div>
+    <div class="hs"><span class="hs-n">20+</span><span class="hs-l">Pays francophones</span></div>
+    <div class="hs-sep"></div>
+    <div class="hs"><span class="hs-n">∞</span><span class="hs-l">Possibilités</span></div>
+  </div>
+</section>
+
+<!-- ══════════ ABOUT ══════════ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-card-wrap reveal">
+        <div class="about-card">
+          <div class="ac-top">
+            <div class="ac-logo-mini">
+              <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="22" width="32" height="5" rx="2.5" fill="#7F77DD" opacity="0.9"/><path d="M10 22 L20 8 L30 22" fill="none" stroke="#7F77DD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="13" width="12" height="9" rx="2" fill="none" stroke="#7F77DD" stroke-width="2"/><text x="20" y="20" font-family="Syne" font-weight="800" font-size="5" fill="#7F77DD" text-anchor="middle">EL</text></svg>
+            </div>
+            <div>
+              <p class="ac-name">EngliLab</p>
+              <p class="ac-loc">Ouagadougou, Burkina Faso 🇧🇫</p>
+            </div>
+          </div>
+          <blockquote class="ac-quote">
+            "L'anglais n'est pas juste une langue — c'est une <em>clé pour explorer le monde.</em>"
+          </blockquote>
+          <div class="ac-flags">🇧🇫 🇨🇮 🇸🇳 🇲🇱 🇧🇯 🇳🇪 <span>+14</span></div>
+        </div>
+        <div class="about-badge-float">
+          <span>🚀</span>
+          <div>
+            <p>Lancé en 2025</p>
+            <small>Premier club d'anglais communautaire du Burkina</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text reveal">
+        <div class="eyebrow">À propos d'EngliLab</div>
+        <h2 class="sec-title">Né à Ouaga,<br>fait pour conquérir<br>le monde</h2>
+        <p class="sec-body">EngliLab est né d'un constat simple : maîtriser l'anglais ouvre des portes — bourses internationales, emplois, voyages, connexions mondiales. Pourtant, l'accès à une pratique réelle reste rare pour les étudiants africains francophones.</p>
+        <p class="sec-body">Nous avons créé un espace où l'apprentissage se fait par la pratique, la communauté et la motivation — pas par la mémorisation ennuyeuse.</p>
+        <div class="chips">
+          <span>Communauté bienveillante</span>
+          <span>Apprentissage actif</span>
+          <span>Sessions vocales</span>
+          <span>Défis hebdomadaires</span>
+          <span>Accès gratuit</span>
+          <span>Discord</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MISSIONS ══════════ -->
+<section id="missions">
+  <div class="container">
+    <div class="sec-header reveal">
+      <div class="eyebrow">Nos missions</div>
+      <h2 class="sec-title">Ce qu'on construit ensemble</h2>
+      <p class="sec-sub">Six piliers qui définissent EngliLab et ce qu'on accomplit pour chaque membre.</p>
+    </div>
+    <div class="missions-grid">
+      <div class="mcard reveal"><div class="mcard-icon" style="background:rgba(127,119,221,.13)">🗣️</div><h3>Pratiquer l'oral</h3><p>Sessions vocales hebdomadaires sur Discord pour parler, débattre, se corriger — le muscle le plus difficile à développer seul.</p></div>
+      <div class="mcard reveal"><div class="mcard-icon" style="background:rgba(29,158,117,.13)">🌍</div><h3>Ouvrir les horizons</h3><p>Connecter les membres à des opportunités réelles : bourses, stages internationaux, programmes d'échange.</p></div>
+      <div class="mcard reveal"><div class="mcard-icon" style="background:rgba(216,90,48,.13)">📈</div><h3>Progresser par étapes</h3><p>Un parcours structuré du niveau débutant au niveau expert, avec des objectifs clairs et des validations régulières.</p></div>
+      <div class="mcard reveal"><div class="mcard-icon" style="background:rgba(239,159,39,.13)">🤝</div><h3>Créer une entraide</h3><p>Les membres avancés deviennent mentors des débutants. On apprend en enseignant — une chaîne de solidarité.</p></div>
+      <div class="mcard reveal"><div class="mcard-icon" style="background:rgba(212,83,126,.13)">🎯</div><h3>Rendre ça fun</h3><p>Défis, quiz, jeux de rôle, discussions thématiques. L'apprentissage par le jeu est plus efficace que la mémorisation.</p></div>
+      <div class="mcard reveal"><div class="mcard-icon" style="background:rgba(55,138,221,.13)">🌐</div><h3>Rayonner sur l'Afrique</h3><p>Rassembler une communauté de jeunes francophones africains. De Ouaga à Dakar, Abidjan, Bamako et au-delà.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PROGRAMME ══════════ -->
+<section id="programme">
+  <div class="container">
+    <div class="sec-header reveal">
+      <div class="eyebrow">Programme d'apprentissage</div>
+      <h2 class="sec-title">Ton parcours vers la maîtrise totale</h2>
+      <p class="sec-sub">Quatre niveaux progressifs. Chaque étape te rapproche de la liberté en anglais.</p>
+    </div>
+    <div class="levels-grid">
+
+      <div class="lcard reveal">
+        <div class="lc-head lc-green">
+          <span class="lc-num">01</span>
+          <div><span class="lc-tag" style="color:#1D9E75;background:rgba(29,158,117,.15)">Beginner · A1/A2</span><h3>🌱 Débutant</h3><p>0 → 3 mois</p></div>
+        </div>
+        <ul>
+          <li><span class="ck" style="color:#1D9E75">✓</span>Alphabet, sons et prononciation de base</li>
+          <li><span class="ck" style="color:#1D9E75">✓</span>Vocabulaire essentiel (500 mots)</li>
+          <li><span class="ck" style="color:#1D9E75">✓</span>Se présenter en anglais</li>
+          <li><span class="ck" style="color:#1D9E75">✓</span>Phrases du quotidien</li>
+          <li><span class="ck" style="color:#1D9E75">✓</span>Compréhension orale simple</li>
+          <li><span class="ck star">✦</span>Défi : présentation vocale d'1 minute</li>
+        </ul>
+      </div>
+
+      <div class="lcard lcard-featured reveal">
+        <div class="lc-head lc-purple">
+          <span class="lc-num">02</span>
+          <div><span class="lc-tag" style="color:#7F77DD;background:rgba(127,119,221,.15)">Intermediate · B1/B2</span><h3>⭐ Intermédiaire</h3><p>3 → 8 mois</p></div>
+        </div>
+        <ul>
+          <li><span class="ck" style="color:#7F77DD">✓</span>Grammaire structurée (temps, modaux)</li>
+          <li><span class="ck" style="color:#7F77DD">✓</span>Conversations fluides sur sujets variés</li>
+          <li><span class="ck" style="color:#7F77DD">✓</span>Écriture de textes et emails</li>
+          <li><span class="ck" style="color:#7F77DD">✓</span>Compréhension de vidéos et podcasts</li>
+          <li><span class="ck" style="color:#7F77DD">✓</span>Participation aux sessions vocales Discord</li>
+          <li><span class="ck star">✦</span>Défi : débat de 5 minutes</li>
+        </ul>
+      </div>
+
+      <div class="lcard reveal">
+        <div class="lc-head lc-coral">
+          <span class="lc-num">03</span>
+          <div><span class="lc-tag" style="color:#D85A30;background:rgba(216,90,48,.15)">Advanced · C1</span><h3>🔥 Avancé</h3><p>8 → 16 mois</p></div>
+        </div>
+        <ul>
+          <li><span class="ck" style="color:#D85A30">✓</span>Expression complexe et nuancée</li>
+          <li><span class="ck" style="color:#D85A30">✓</span>Anglais professionnel et académique</li>
+          <li><span class="ck" style="color:#D85A30">✓</span>Préparation IELTS / TOEFL</li>
+          <li><span class="ck" style="color:#D85A30">✓</span>Rédaction de lettres de motivation</li>
+          <li><span class="ck" style="color:#D85A30">✓</span>Discussions de haut niveau</li>
+          <li><span class="ck star">✦</span>Défi : présentation de 10 minutes</li>
+        </ul>
+      </div>
+
+      <div class="lcard reveal">
+        <div class="lc-head lc-amber">
+          <span class="lc-num">04</span>
+          <div><span class="lc-tag" style="color:#EF9F27;background:rgba(239,159,39,.15)">Expert · C2</span><h3>👑 Expert</h3><p>16+ mois</p></div>
+        </div>
+        <ul>
+          <li><span class="ck" style="color:#EF9F27">✓</span>Maîtrise quasi-native de l'anglais</li>
+          <li><span class="ck" style="color:#EF9F27">✓</span>Devenir mentor des débutants</li>
+          <li><span class="ck" style="color:#EF9F27">✓</span>Animer des sessions vocales</li>
+          <li><span class="ck" style="color:#EF9F27">✓</span>Créer du contenu en anglais</li>
+          <li><span class="ck" style="color:#EF9F27">✓</span>Entretiens internationaux</li>
+          <li><span class="ck star">✦</span>Défi : animer une session du club</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ QUIZ SECTION ══════════ -->
+<section id="quiz-section">
+  <div class="container">
+    <div class="quiz-intro reveal">
+      <div class="eyebrow">Test de niveau</div>
+      <h2 class="sec-title">Teste ton niveau d'anglais</h2>
+      <p class="sec-sub">15 questions — QCM + Vrai/Faux. En 5 minutes, découvre ton niveau réel et reçois ton plan personnalisé semaine par semaine.</p>
+      <button class="btn-start-quiz" id="startQuizBtn">🎯 Commencer le test</button>
+    </div>
+
+    <!-- QUIZ CONTAINER -->
+    <div class="quiz-container" id="quizContainer" style="display:none">
+
+      <!-- Progress -->
+      <div class="quiz-progress">
+        <div class="qp-info">
+          <span class="qp-current" id="qpCurrent">Question 1</span>
+          <span class="qp-total">sur 15</span>
+        </div>
+        <div class="qp-bar"><div class="qp-fill" id="qpFill"></div></div>
+        <div class="qp-levels">
+          <span>A1</span><span>A2</span><span>B1</span><span>B2</span><span>C1+</span>
+        </div>
+      </div>
+
+      <!-- Question Card -->
+      <div class="question-card" id="questionCard">
+        <div class="q-level-tag" id="qLevelTag">A1</div>
+        <p class="q-text" id="qText"></p>
+        <div class="q-options" id="qOptions"></div>
+        <div class="q-feedback" id="qFeedback" style="display:none"></div>
+        <button class="btn-next" id="btnNext" style="display:none">Question suivante →</button>
+      </div>
+    </div>
+
+    <!-- RESULT CONTAINER -->
+    <div class="result-container" id="resultContainer" style="display:none">
+      <div class="result-header">
+        <div class="result-badge" id="resultBadge"></div>
+        <h2 class="result-title" id="resultTitle"></h2>
+        <p class="result-desc" id="resultDesc"></p>
+        <div class="result-score">
+          <div class="score-ring">
+            <svg viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(127,119,221,0.15)" stroke-width="10"/>
+              <circle cx="60" cy="60" r="50" fill="none" stroke="#7F77DD" stroke-width="10"
+                stroke-linecap="round" stroke-dasharray="314"
+                id="scoreCircle" stroke-dashoffset="314"
+                transform="rotate(-90 60 60)"/>
+            </svg>
+            <div class="score-inner">
+              <span class="score-num" id="scoreNum">0</span>
+              <span class="score-label">/ 15</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Roadmap -->
+      <div class="roadmap-section">
+        <h3 class="roadmap-title">🗺️ Ton plan personnalisé</h3>
+        <div class="roadmap-weeks" id="roadmapWeeks"></div>
+      </div>
+
+      <!-- Resources -->
+      <div class="resources-section">
+        <h3 class="res-title">📚 Ressources recommandées pour toi</h3>
+        <div class="res-grid" id="resGrid"></div>
+      </div>
+
+      <!-- CTA -->
+      <div class="result-cta">
+        <p>Rejoins EngliLab sur Discord pour progresser en communauté avec ton plan !</p>
+        <div class="result-cta-btns">
+          <a href="#discord" class="btn-discord-res">Rejoindre le Discord ↗</a>
+          <button class="btn-retry" id="btnRetry">🔄 Refaire le test</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════ DISCORD ══════════ -->
+<section id="discord">
+  <div class="container">
+    <div class="discord-box reveal">
+      <div class="db-orb"></div>
+      <div class="db-discord-icon">
+        <svg width="36" height="28" viewBox="0 0 71 55" fill="none"><path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.401329 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978Z" fill="white"/></svg>
+      </div>
+      <h2>Rejoins EngliLab sur Discord</h2>
+      <p>Des lycéens et étudiants de toute l'Afrique francophone t'attendent pour pratiquer, progresser et construire ton avenir en anglais. C'est gratuit, bienveillant, et ça commence maintenant.</p>
+      <!-- ⚠️ Remplace le # par ton vrai lien Discord -->
+      <a href="#" class="btn-discord-main">Rejoindre le serveur Discord ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo-icon">
+        <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="22" width="32" height="5" rx="2.5" fill="#7F77DD" opacity="0.9"/><path d="M10 22 L20 8 L30 22" fill="none" stroke="#7F77DD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="13" width="12" height="9" rx="2" fill="none" stroke="#7F77DD" stroke-width="2"/><text x="20" y="20" font-family="Syne" font-weight="800" font-size="5" fill="#7F77DD" text-anchor="middle">EL</text></svg>
+      </div>
+      <div>
+        <p class="footer-name">Engli<b>Lab</b></p>
+        <p class="footer-tag">Ton laboratoire d'anglais — Ouagadougou 🇧🇫</p>
+      </div>
+    </div>
+    <nav class="footer-nav">
+      <a href="#about">À propos</a>
+      <a href="#missions">Missions</a>
+      <a href="#programme">Programme</a>
+      <a href="#quiz-section">Test de niveau</a>
+      <a href="#discord">Discord</a>
+    </nav>
+    <p class="footer-copy">© 2025 EngliLab · Tous droits réservés · Burkina Faso</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
